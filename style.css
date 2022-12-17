@@ -1,0 +1,172 @@
+
+    /* banner section */
+
+.banner h1 {
+    Font-weight: 700;
+    Font-size: 26px;
+    Font-family: 'Lora';
+    text-align: center;
+}
+
+p, li, a, button {
+    Font-weight: 400;
+    Font-size: 14px;
+    Font-family: 'Noto Sans';
+}
+
+h2 {
+    Font-weight: 500;
+    Font-size: 18px;
+    Font-family: 'Noto Sans';
+    margin-left: 10px;
+}
+
+    /* color section */
+
+.color {
+    width: 700px;
+    border: 3px solid gray;
+    margin: 10px auto;
+}
+
+.color p {
+    text-align: center;
+}
+
+.box {
+    padding: 0px 80px;
+    width: 80px;
+    height: 80px;
+}
+
+#yellow {
+    background-color: #FFFF4E;
+}
+
+#green {
+    background-color: #00E480;
+
+}
+
+#blue {
+    background-color: #00DFFF;
+}
+
+.color div {
+    display: inline-block;
+    margin: 10px;
+}
+
+    /* font sectin */
+
+.font div {
+    display: inline-block;
+    margin: 10px;
+}
+
+.font {
+    border: 3px solid gray;
+    width: 700px;
+    margin: 10px auto;
+}
+
+.font-name {
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+    /* lora */
+
+.lora .regular, .italic, .bold {
+    font-family: 'Lora';
+}
+
+
+    /* archivo-narrow */
+
+.archivo-narrow .regular, .italic, .bold {
+    font-family: 'Archivo-Narrow';
+}
+
+.impact .single{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+    /* text-style section */
+
+.text-style {
+    border: 3px solid gray;
+    width: 700px;
+    margin: 10px auto;
+}
+
+.text-style div {
+    margin: 10px;
+}
+
+.main-section p {
+    font-weight: 700;
+    font-size: 26px;
+    font-family: 'Lora';
+}
+
+.sub-section p {
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Noto Sans';
+}
+
+    /* link-button section */
+
+.link-button {
+    border: 3px solid gray;
+    width: 700px;
+    height: auto;
+    margin: 10px auto;
+    }
+
+.link-button div {
+    margin: 20px 10px;
+}
+
+.link a {
+    color: #2F46F8;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.link a:hover {
+    color: rgb(255, 0, 68);
+    text-decoration: none;
+}
+
+button {
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+    background-color: #FFFF4E;
+    padding: 14px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #EED54F;
+    color: rgb(255, 0, 70);
+    transition: color 0.1s ease-in, background-color 0.5s ease-in;
+}
+
+.link-button p {
+    font-size: 16px;
+    text-decoration: underline;
+}
